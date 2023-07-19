@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 
-modeldict = pickle.load(open('C:\Python programming\HandGestureDetection\model.p', 'rb'))
+modeldict = pickle.load(open('Hand_Gesture_Recognition\model.p', 'rb'))
 model = modeldict['model']
 
 cap = cv2.VideoCapture(0)
