@@ -3,7 +3,7 @@ import os
 import cv2
 
 
-DATA_DIR = 'C:\\Python programming\\HandGestureDetection\\CollectedData'
+DATA_DIR = 'Hand_Gesture_Recognition\\Collected_Data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
