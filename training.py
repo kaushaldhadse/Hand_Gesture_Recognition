@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-datad = pickle.load(open('C:\Python programming\HandGestureDetection\pikolo.pickle', 'rb'))
+datad = pickle.load(open('Hand_Gesture_Recognition\training_data.pickle', 'rb'))
 
 data = np.array(datad['data'])
 labels = np.array(datad['labels'])
