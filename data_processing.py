@@ -11,7 +11,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands  = mp_hands.Hands(static_image_mode = True, min_detection_confidence = 0.3)
 
-data_address = 'C:\Python programming\HandGestureDetection\CollectedData'
+data_address = 'Hand_Gesture_Recognition\Collected_Data'
 
 
 data = []
@@ -54,6 +54,6 @@ for gesture in os.listdir(data_address):      #listdir takes a path as input and
 
 # plt.show()
 
-f = open('C:\Python programming\HandGestureDetection\pikolo.pickle', 'wb')
+f = open('C:\Python programming\HandGestureDetection\training_data.pickle', 'wb')
 pickle.dump({'data': data, 'labels': labels}, f)
 f.close()
